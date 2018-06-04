@@ -8,13 +8,8 @@ h1 {
   font-size: 3rem;
   font-weight: 400;
   text-align: center;
-  transform: translateY(50%)
+  transform: translateY(50%);
 }
-
-/* .container(
-width: 900px;
-margin: auto;
-) */
 
 /* Setup nav, navbtn, and nav menu */
 .nav {
@@ -121,7 +116,7 @@ html.can-touch .nav-btn:hover{
 }
 
 .wrapper > div:nth-child(2n){
-  background: rgb(61, 36, 36);
+  background: black;
   color: white;
 }
 
