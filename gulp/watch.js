@@ -7,26 +7,26 @@ gulp.task('watch', function() {
   browserSync.init({
     notify: false,
     server: {
-      baseDir: "app/"
+      baseDir: "docs/"
     }
   });
 
-  gulp.watch('./app/index.html', function() {
+  gulp.watch('./docs/index.html', function() {
     browserSync.reload();
   });
 
-  gulp.watch('./app/**.css', function() {
+  gulp.watch('./docs/**.css', function() {
     gulp.start('cssInject');
   });
 
-  gulp.watch('./app/assets/**/*.js', function() {
+  gulp.watch('./docs/assets/**/*.js', function() {
     gulp.start('scriptsRefresh');
   });
 
 });
 
 gulp.task('cssInject', function(){
-  return gulp.src('./app/styles.css')
+  return gulp.src('./docs/styles.css')
     .pipe(broswerSync.stream());
 });
 

@@ -180,7 +180,19 @@ html.can-touch .nav-btn:hover{
   width: 100px;
 }
 .project-4 {
-  background-image: url("./assets/PomodoroClockThumb.png");
+  background-image: url("./assets/TravelSiteThumb.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+.project-5 {
+  background-image: url("./assets/CalculatorThumb.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+.project-6 {
+  /* background-image: url("./assets/TravelSiteThumb.png"); */
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -204,4 +216,6 @@ html.can-touch .nav-btn:hover{
   /* transform: translateY(50%); */
   font-size: 1.6rem;
 }
-      
+.contact-info a {
+  color: white;
+}
