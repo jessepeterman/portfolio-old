@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html lang="" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Jesse Peterman's Portfolio</title>
-    <link rel="stylesheet" href="./assets/styles/styles.css">
-  </head>
-  <body>
-
-
-    <h1>Jesse Peterman's <p>Web Development Portfolio</p></h1>
-    <div class="wrapper">
-      <div class="projects"><h2>Projects</h2>
-        <div class="projects-grid">
-          <div class="project-1"></div>
-          <div class="project-2"></div>
-          <div class="project-3"></div>
-          <div class="project-4"></div>
-          <div class="project-5"></div>
-          <div class="project-6"></div>
-          <div class="project-7"></div>
-          <div class="project-8"></div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesse Peterman's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Nav -->
+      
+      
+      <div class="nav">
+        <div class="nav nav-btn"><span class="nav nav-btn">Menu</span></div>
+        <div class="nav nav-menu hidden">
+          <li><a href="#projects" class="projects-nav-button">Projects</a></li>
+          <li><a href="#about-me" class="about-me-nav-button">About Me</a></li>
+          <li><a href="#contact-info" class="contact-info-nav-button">Contact Info</a></li>
+          <li><a href="#resume" class="resume-nav-button">Resume</a></li>
+          <!-- <hr class="divider"> -->
         </div>
       </div>
-      <div class="project-details">Project Details
-
+    </div>
+  
+  <!-- Body -->
+  <div class="wrapper">
+    <div class="header">
+      <h1>My
+        <p> Portfolio</p>
+      </h1>
+    </div>
+    <div class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <a href="https://jessepeterman.github.io/square-racer/"><div class="project project-1"></div></a>
+        <a href="https://yelpcamp3.herokuapp.com"><div class="project project-2"></div></a>
+        <div class="project project-3"></div>
+        <div class="project project-4"></div>
       </div>
+    </div>
+    
+    <!-- About me -->
+    <div id="about-me" class="about-me">
+      <h2>About Me</h2>
+      
+    </div>
 
-      <div class="about-me"><h2>About Me</h2>
-      </div>
-      <div class="contact-info"><h2>Contact Info</h2>
-      </div>
+    <!-- Contact info -->
+    <div id="contact-info" class="contact-info">
+      <h2>Contact Info</h2>
+    </div>
 
-      <div>
-  </body>
+
+  </div>
+  
+  <div>  
+    <div class="modal">
+      <div class="project-modal-">
+      </div>
+    </div>
+  </div>
+  
+  <div class="project-1-preview invisible">
+          <!-- <h2>This was a pomodoro-clock I made early in my Javascript stuides.</h2> -->
+  </div>
+  
+  <script type="text/javascript" src="app.js">
+    
+  </script>
+</body>
 </html>

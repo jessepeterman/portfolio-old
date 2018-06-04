@@ -9,11 +9,13 @@
     "gulp-watch": "^5.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.7"
+    "browser-sync": "^2.23.7",
+    "css-inject": "^1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "jessepeterman <jessepeterman@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/jessepeterman/portfolio"
 }
