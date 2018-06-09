@@ -17,10 +17,6 @@ navBtn.addEventListener('click', (e) => {
   divider2.classList.toggle('hidden');
 });
 
-document.addEventListener('DOMContentLoaded', (e) => {
-  console.log(window.innerWidth);
-});
-
 document.addEventListener('touchstart', function addtouchclass(e) { 
   document.documentElement.classList.add('can-touch')
   document.removeEventListener('touchstart', addtouchclass, false)

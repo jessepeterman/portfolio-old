@@ -11,16 +11,23 @@ a {
   display: inline-block;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: 400;
-  text-align: center;
-  transform: translateY(50%);
 }
 
 h2{
   font-weight: 300;
   font-size: 1.8rem;
+
 }
 
 /* Setup nav, navbtn, and nav menu */
@@ -82,8 +89,7 @@ h2{
   h1 {
     font-size: 4rem;
     font-weight: 400;
-    text-align: center;
-    transform: translateY(50%)
+
   }
 }
 
@@ -100,24 +106,16 @@ html.can-touch .nav-btn:hover{
   opacity: 1;
 }
 
-
-
 /* MAIN SITE GRID LAYOUT */ 
-
-.wrapper {
-  display:grid;
-  /* grid-auto-rows: 450px 1fr 1fr 1fr; */
-  grid-auto-rows: 450px 350px 350px 350px;
-  grid-auto-rows: minmax(450px, auto);
-}
 
 .menu-divider-top {
 margin-bottom: .5rem;
 }
-.menu-divider-bottom {
-  /* margin-top: 0; */
-}
 
+  .wrapper {
+    display:grid;
+    grid-auto-rows: 450px .5fr 1fr .5fr
+  }
 
 @media (min-width: 600px){  
   .wrapper {
@@ -146,7 +144,6 @@ margin-bottom: .5rem;
   color: white;
 }
 
-
 /* Projects Grid */
 
 .projects-grid {
@@ -155,6 +152,7 @@ margin-bottom: .5rem;
   grid-auto-rows: 100px;
   grid-gap: 2rem;
   justify-items: center;
+  max-width: 900px;
   margin-bottom: 2rem;
 }
 
@@ -162,12 +160,17 @@ margin-bottom: .5rem;
   .projects-grid {
     grid-template-columns: repeat( 4, 1fr);
     grid-template-rows: auto;
+    justify-self: center;
   }
 }
 @media (min-width: 1380px){ 
   .projects-grid {
     /* grid-template-columns: repeat(8, 1fr); */
   }
+}
+.projects {
+  display: grid;
+  align-items: center;
 }
 
 .projects-grid > div {
@@ -225,26 +228,27 @@ margin-bottom: .5rem;
   width: 100px;
 }
 
+.content-wrapper{
+  max-width: 900px;
+}
 .about-me > p {
   text-align: left;
   font-size: 1.2rem;
-  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 900px;
 }
 
 .contact-info {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.contact-info > p {
-  position: relative;
-  top: 15%;
-  /* transform: translateY(50%); */
-  font-size: 1.6rem;
-}
-.contact-info a {
+
+.contact-info a { 
   color: white;
+  font-size: 1.6rem;
 }
 .contact-info a:hover {
   opacity: .8;
