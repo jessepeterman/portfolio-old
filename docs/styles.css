@@ -18,6 +18,11 @@ h1 {
   transform: translateY(50%);
 }
 
+h2{
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
 /* Setup nav, navbtn, and nav menu */
 .nav {
   text-align: center;
@@ -213,6 +218,12 @@ margin-bottom: .5rem;
   height: 100px;
   width: 100px;
 }
+.project-7 {
+  background-image: url("./assets/expensify.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
 
 .about-me > p {
   text-align: left;
@@ -234,4 +245,7 @@ margin-bottom: .5rem;
 }
 .contact-info a {
   color: white;
+}
+.contact-info a:hover {
+  opacity: .8;
 }
