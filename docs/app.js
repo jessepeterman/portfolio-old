@@ -7,27 +7,19 @@ const navMenu = document.querySelector('.nav-menu');
 const projectsNavButton = document.querySelector('.projects-nav-button');
 const aboutMeNavButton = document.querySelector('.projects-nav-button');
 const contactInfoNavButton = document.querySelector('.projects-nav-button');
+const divider = document.querySelector('.menu-divider-bottom');
+const divider2 = document.querySelector('.menu-divider-top');
 
-document.addEventListener("scroll", () => {
-  // if(window.pageYOffset > 50){
-  //   document.querySelector('.navy').style.display="grid";
-  // } else if(window.pageYOffset < 50){
-  //   document.querySelector('.navy').style.display = "none";
-  // }
-});
 
 navBtn.addEventListener('click', (e) => {
-  console.log(navMenu);
-  navMenu.classList.toggle('hidden')
+  navMenu.classList.toggle('hidden');  
+  divider.classList.toggle('hidden');
+  divider2.classList.toggle('hidden');
 });
 
 document.addEventListener('DOMContentLoaded', (e) => {
   console.log(window.innerWidth);
 });
-
-// if(window.innerWidth <= 600){
-//   console.log(window.innerWidth);
-// }
 
 document.addEventListener('touchstart', function addtouchclass(e) { 
   document.documentElement.classList.add('can-touch')
