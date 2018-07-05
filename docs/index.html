@@ -1,82 +1,123 @@
 <!DOCTYPE html>
 <html lang="" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jesse Peterman's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <!-- Nav -->
   <div class="nav">
     <div class="nav nav-menu hidden">
-      <li><a href="#projects" class="projects-nav-button">Projects</a></li>
-      <li><a href="#about-me" class="about-me-nav-button">About Me</a></li>
-      <li><a href="#contact-info" class="contact-info-nav-button">Contact Info</a></li>
-      <li><a href="https://www.dropbox.com/s/mywd30cqm64yy5q/2018.06%20Jesse%20Peterman%2C%20Resume.pdf?dl=0" class="resume-nav-button">Resume</a></li>
+      <li>
+        <a href="#projects" class="projects-nav-button">Projects</a>
+      </li>
+      <li>
+        <a href="#about-me" class="about-me-nav-button">About Me</a>
+      </li>
+      <li>
+        <a href="#contact-info" class="contact-info-nav-button">Contact Info</a>
+      </li>
+      <li>
+        <a href="https://www.dropbox.com/s/mywd30cqm64yy5q/2018.06%20Jesse%20Peterman%2C%20Resume.pdf?dl=0" class="resume-nav-button">Resume</a>
+      </li>
     </div>
     <hr class="menu-divider-top hidden hidden-mobile">
-    <div class="nav nav-btn"><span>Menu</span></div>
+    <div class="nav nav-btn">
+      <span>Menu</span>
+    </div>
   </div>
   <hr class="menu-divider-bottom">
-  
+
   <!-- Body -->
   <div class="wrapper">
     <div class="header">
-        <h1>Jesse Peterman</h1>
-        <h2>Portfolio</h2>
+      <div class="photos">
+        <!-- <img src="assets/photos/IMG_0174.jpg" alt="">
+          <img src="assets/photos/IMG_1243.jpg" alt="">
+          <img src="assets/photos/IMG_1590.jpg" alt=""> -->
+        <img src="assets/photos/IMG_1655.jpg" style="transform: rotate(180deg)" alt="">
+      </div>
+      <!-- <h1>Jesse Peterman</h1>
+      <h2>Portfolio</h2> -->
     </div>
-    
+
     <div class="projects" id="projects">
       <h2>Projects</h2>
       <div class="projects-grid ">
-        <a href="https://yelpcamp3.herokuapp.com"><div class="project project-2"></div></a>
-        <a href="https://jessepeterman.github.io/travel-site/"> <div class="project project-4"></div></a>
-        <a href="https://expensify-react-class.herokuapp.com"><div class="project project-7"></div></a>
-        <a href="https://jessepeterman.github.io/square-racer/"> <div class="project project-1"></div></a>
-        <a href="https://codepen.io/jessepeterman/project/full/ZKPEOp/"><div class="project project-3"></div></a>
-        <a href="https://codepen.io/jessepeterman/pen/dmQOoj"> <div class="project project-5"></div></a>
-        <a href="https://jessepeterman.github.io/oldbooknewbook/"> <div class="project project-6"></div></a>
+        <a href="https://yelpcamp3.herokuapp.com">
+          <div class="project project-2"></div>
+        </a>
+        <h4 class="tooltip invisible">Made with HTML, CSS, Javascript, Node.JS, MongoDB, Express, Cloud9, Heroku</h4>
+
+        <a href="https://jessepeterman.github.io/travel-site/">
+          <div class="project project-4"></div>
+        </a>
+        <h4 class="tooltip invisible">Made with HTML, CSS, Javascript, Gulp, Browserfy, Normalize, PostCSS</h4>
+        <a href="https://expensify-react-class.herokuapp.com">
+          <div class="project project-7"></div>
+        </a>
+        <a href="https://jessepeterman.github.io/square-racer/">
+          <div class="project project-1"></div>
+        </a>
+        <a href="https://codepen.io/jessepeterman/project/full/ZKPEOp/">
+          <div class="project project-3"></div>
+        </a>
+        <a href="https://codepen.io/jessepeterman/pen/dmQOoj">
+          <div class="project project-5"></div>
+        </a>
+        <a href="https://jessepeterman.github.io/oldbooknewbook/">
+          <div class="project project-6"></div>
+        </a>
       </div>
     </div>
-    
-    <!-- About me --> 
+
+    <!-- About me -->
     <div id="about-me" class="about-me">
       <h2>About Me</h2>
       <p>I love building amazing apps that improve people's lives.</p>
-      <p>I've had a passion for computers and technology ever since I could remember. It all started when I intuitively learned how
-        to setup the Nintendo for my family at 2 or 3 years of age. In Jr. High I went through the grueling process of installing
-        Linux on my PC, and that got me into the world of terminals, commands, and gave me an introduction to programming.</p><p>I have
-          experience with various operating systems and technologies, including open source. I have experience building scalable web apps in Javascript, React, and Node.JS. </p>
-          <p>In addition to my technical background, I'm also an experienced leader with a demonstrated history of working in religious/non-profit institutions. I'm have experience in
-            Leadership Development, Management, Creative Problem Solving, Teaching, and Public Speaking. I hold a Master of Divinity (M.Div.) from Talbot School of Theology.</p>
-          </div>
-          
-          <!-- Contact info -->
-          <div id="contact-info" class="contact-info">
-            <!-- <h2>Contact Info</h2> -->
-            <div class="contact-links">
-            <a href="mailto:jessepeterman@gmail.com">Email</a>
-              <br><a href="https://www.github.com/jessepeterman">Github</a>
-              <br><a href="https://www.linkedin.com/in/jesse-peterman-7506b478/">LinkedIn</a>
-              </div>
-            </div>
-          </div>
-          
-          <div>  
-            <div class="modal">
-              <div class="project-modal-">
-              </div>
-            </div>
-          </div>
-          
-          <div class="project-1-preview invisible">
-            <!-- <h2>This was a pomodoro-clock I made early in my Javascript stuides.</h2> -->
-          </div>
-          
-          <script type="text/javascript" src="app.js">
-            
-          </script>
-        </body>
-        </html>
-        
+      <p>I've had a passion for computers and technology ever since I could remember. It all started when I intuitively learned
+        how to setup the Nintendo for my family at 2 or 3 years of age. In Jr. High I went through the grueling process of
+        installing Linux on my PC, and that got me into the world of terminals, commands, and gave me an introduction to
+        programming.
+      </p>
+      <p>I have experience with various operating systems and technologies, including open source. I have experience building
+        scalable web apps in Javascript, React, and Node.JS. </p>
+      <p>In addition to my technical background, I'm also an experienced leader with a demonstrated history of working in religious/non-profit
+        institutions. I'm have experience in Leadership Development, Management, Creative Problem Solving, Teaching, and
+        Public Speaking. I hold a Master of Divinity (M.Div.) from Talbot School of Theology.</p>
+    </div>
+
+    <!-- Contact info -->
+    <div id="contact-info" class="contact-info">
+      <!-- <h2>Contact Info</h2> -->
+      <div class="contact-links">
+        <a href="mailto:jessepeterman@gmail.com">Email</a>
+        <br>
+        <a href="https://www.github.com/jessepeterman">Github</a>
+        <br>
+        <a href="https://www.linkedin.com/in/jesse-peterman-7506b478/">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="modal">
+      <div class="project-modal-">
+      </div>
+    </div>
+  </div>
+
+  <div class="project-1-preview invisible">
+    <!-- <h2>This was a pomodoro-clock I made early in my Javascript stuides.</h2> -->
+  </div>
+
+  <script type="text/javascript" src="app.js">
+
+  </script>
+</body>
+
+</html>
