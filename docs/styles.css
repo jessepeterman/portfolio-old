@@ -31,10 +31,18 @@ a {
   display: block;
   position: absolute;
   transform: translateY(-50%);
-  top: 10.95rem;
+  top: 3rem;
   width: 100%;
 }
 
+@media (min-width: 320px) {
+  .me-arrow {
+    display: block;
+    font-size: 3rem;
+    top: 8rem;
+    transform: translateY(-50%);
+  }
+}
 @media (min-width: 600px) {
   .me-arrow {
     display: block;
@@ -143,14 +151,20 @@ html.can-touch .nav-btn:hover {
 }
 
 hr {
-  position: relative;
+  position: absolute;
   margin: 0;
   top: 2px;
 }
 
 .wrapper {
   display: grid;
-  grid-auto-rows: 370px 0.5fr 1fr 0.5fr;
+  grid-auto-rows: 240px 0.5fr 1fr 0.5fr;
+}
+@media (min-width: 370px) {
+  .wrapper {
+    display: grid;
+    grid-auto-rows: 280px 0.5fr 1fr 0.5fr;
+  }
 }
 
 @media (min-width: 600px) {
