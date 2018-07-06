@@ -240,9 +240,7 @@ hr {
 .project-2 {
   background-image: url("./assets/yelpCampThumb.png");
 }
-.project-2:hover .tooltip {
-  visibility: visible;
-}
+
 .project-3 {
   background-image: url("./assets/PomodoroClockThumb.png");
 }
@@ -286,17 +284,6 @@ hr {
 }
 .contact-info a:hover {
   opacity: 0.8;
-}
-
-.tooltip {
-  background: rgb(204, 204, 46);
-  color: white;
-  position: absolute;
-  display: inline-block;
-  width: 10rem;
-  z-index: 1;
-  pointer-events: none;
-  /* transform: scale(1.4) translate(-10%, -40%); */
 }
 
 .invisible {
