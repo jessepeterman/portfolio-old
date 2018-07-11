@@ -248,27 +248,25 @@ hr {
 }
 
 .project-1 {
-  background-image: url('./assets/squareRacerThumb.png');
+  background-image: url('../squareRacerThumb.png');
 }
-
 .project-2 {
-  background-image: url('./assets/yelpCampThumb.png');
+  background-image: url('../yelpCampThumb.png');
 }
-
 .project-3 {
-  background-image: url('./assets/PomodoroClockThumb.png');
+  background-image: url('../PomodoroClockThumb.png');
 }
 .project-4 {
-  background-image: url('./assets/TravelSiteThumb.png');
+  background-image: url('../TravelSiteThumb.png');
 }
 .project-5 {
-  background-image: url('./assets/CalculatorThumb.png');
+  background-image: url('../CalculatorThumb.png');
 }
 .project-6 {
-  background-image: url('./assets/OldBookNewBookThumb.png');
+  background-image: url('../OldBookNewBookThumb.png');
 }
 .project-7 {
-  background-image: url('./assets/expensify.png');
+  background-image: url('../expensify.png');
 }
 
 .content-wrapper {
