@@ -8,16 +8,24 @@ const nested = require('postcss-nested');
 
 gulp.task('styles', () => {
   return gulp
-    .src('./assets/styles/styles.css')
+    .src('./app/assets/styles/styles.css')
     .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
+    .pipe(gulp.dest('./app/temp/styles'))
     .pipe(gulp.dest('./temp/styles'));
 });
 
-gulp.task('styles-watch', () => {
-  watch('index.html', () => {
-    gulp.start('html');
-  });
-  gulp.watch('./assets/styles/**/*.css', () => {
+gulp.task('styles', () => {
+  gulp.watch('./app/assets/styles/**/*.css', () => {
     gulp.start('styles');
   });
 });
+
+// gulp.task('html', () => {
+//   return gulp.src('./app/index.html').pipe(gulp.dest('./docs/'));
+// });
+
+// gulp.task('watch-html', () => {
+//   gulp.watch('./app/*.html', () => {
+//     gulp.start('html');
+//   });
+// });

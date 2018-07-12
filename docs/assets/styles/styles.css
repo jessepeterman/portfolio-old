@@ -5,13 +5,11 @@ body {
   font-family: Baskerville;
   margin: 0;
 }
-
 a {
   text-decoration: none;
   color: black;
   display: inline-block;
 }
-
 .header {
   /* display: flex;
   flex-direction: column;
@@ -23,24 +21,24 @@ a {
   padding: 0;
   overflow: hidden;
 }
-
 .me-arrow {
   background: rgba(255, 255, 255, 0.8);
   color: black;
   font-size: 3rem;
   display: block;
   position: absolute;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   top: 3rem;
   width: 100%;
 }
-
 @media (min-width: 320px) {
   .me-arrow {
     display: block;
     font-size: 3rem;
     top: 8rem;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
 @media (min-width: 600px) {
@@ -48,28 +46,26 @@ a {
     display: block;
     font-size: 5rem;
     top: 11rem;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
-
 @media (min-width: 900px) {
   .me-arrow {
     font-size: 5rem;
     top: 16.375rem;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
-
 h1 {
   font-size: 3rem;
   font-weight: 400;
 }
-
 h2 {
   font-weight: 300;
   font-size: 1.8rem;
 }
-
 /* Setup nav, navbtn, and nav menu */
 .nav {
   text-align: center;
@@ -79,23 +75,19 @@ h2 {
   /* border: 1px solid black; */
   cursor: pointer;
 }
-
 .nav-btn:hover {
   opacity: 0.7;
 }
-
 .nav-menu {
 }
 .nav-menu > li a:hover {
   opacity: 0.7;
 }
-
 .nav-menu li {
   cursor: pointer;
   font-size: 1.6rem;
   list-style: none;
 }
-
 /* Hide menu button and keep showing nav-menu for larger screens */
 @media (min-width: 600px) {
   .nav-btn {
@@ -112,7 +104,6 @@ h2 {
     color: black;
   }
 }
-
 @media (max-width: 599px) {
   .hidden {
     display: none;
@@ -123,14 +114,12 @@ h2 {
     display: none;
   }
 }
-
 @media (min-width: 600px) {
   h1 {
     font-size: 4rem;
     font-weight: 400;
   }
 }
-
 /* Fix for iOS sticky :hover thanks to: 
 http://www.javascriptkit.com/dhtmltutors/sticky-hover-issue-solutions.shtml */
 html.can-touch li a:hover {
@@ -143,19 +132,15 @@ html.can-touch .nav-btn:hover {
   color: black;
   opacity: 1;
 }
-
 /* MAIN SITE GRID LAYOUT */
-
 .menu-divider-top {
   /* margin-bottom: 0.5rem; */
 }
-
 hr {
   position: absolute;
   margin: 0;
   top: 2px;
 }
-
 .wrapper {
   display: grid;
   grid-auto-rows: 240px 0.5fr 1fr 0.5fr;
@@ -166,7 +151,6 @@ hr {
     grid-auto-rows: 280px 0.5fr 1fr 0.5fr;
   }
 }
-
 @media (min-width: 600px) {
   .wrapper {
     display: grid;
@@ -186,20 +170,16 @@ hr {
     grid-auto-rows: 600px 1fr 1fr 1fr;
   }
 }
-
 .wrapper > div {
-  background: #fff;
+  background: rgb(90, 123, 129);
   /* padding: 1em; */
   text-align: center;
 }
-
 .wrapper > div:nth-child(2n) {
-  background: black;
+  background: rgb(117, 134, 122);
   color: white;
 }
-
 /* Projects Grid */
-
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -208,7 +188,6 @@ hr {
   max-width: 900px;
   margin-bottom: 2rem;
 }
-
 @media (min-width: 600px) {
   .projects-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -226,49 +205,43 @@ hr {
   flex-direction: column;
   align-items: center;
 }
-
 .projects-grid div {
   background-color: #fff;
   width: 100px;
 }
-
 .projects > a {
   height: 100px;
   width: 100px;
 }
-
 .projects-grid div:hover {
   opacity: 0.7;
 }
-
 .project {
   background-size: cover;
   height: 100px;
   width: 100px;
 }
-
 .project-1 {
-  background-image: url('../squareRacerThumb.png');
+  background-image: url('../images/app-thumbnails/squareRacerThumb.png');
 }
 .project-2 {
-  background-image: url('../yelpCampThumb.png');
+  background-image: url('../images/app-thumbnails/yelpCampThumb.png');
 }
 .project-3 {
-  background-image: url('../PomodoroClockThumb.png');
+  background-image: url('../images/app-thumbnails/PomodoroClockThumb.png');
 }
 .project-4 {
-  background-image: url('../TravelSiteThumb.png');
+  background-image: url('../images/app-thumbnails/TravelSiteThumb.png');
 }
 .project-5 {
-  background-image: url('../CalculatorThumb.png');
+  background-image: url('../images/app-thumbnails/CalculatorThumb.png');
 }
 .project-6 {
-  background-image: url('../OldBookNewBookThumb.png');
+  background-image: url('../images/app-thumbnails/OldBookNewBookThumb.png');
 }
 .project-7 {
-  background-image: url('../expensify.png');
+  background-image: url('../images/app-thumbnails/expensify.png');
 }
-
 .content-wrapper {
   max-width: 900px;
 }
@@ -282,14 +255,12 @@ hr {
   padding-right: 2rem;
   /* margin: 0 1rem 0 1rem; */
 }
-
 .contact-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .contact-info a {
   color: white;
   font-size: 1.6rem;
@@ -297,11 +268,9 @@ hr {
 .contact-info a:hover {
   opacity: 0.8;
 }
-
 .invisible {
   display: none;
 }
-
 .photos img {
   background-repeat: no-repeat;
   justify-content: space-between;
@@ -310,7 +279,6 @@ hr {
   height: auto;
   margin: 0;
 }
-
 @media (min-width: 800px) {
   .photos img {
     /* width: 600px; */

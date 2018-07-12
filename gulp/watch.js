@@ -6,25 +6,25 @@ gulp.task('watch', () => {
   browserSync.init({
     notify: false,
     server: {
-      baseDir: 'docs/'
+      baseDir: 'app/'
     }
   });
 
-  gulp.watch('./docs/index.html', () => {
+  gulp.watch('./app/index.html', () => {
     browserSync.reload();
   });
 
-  gulp.watch('./docs/**.css', () => {
+  gulp.watch('./app/**/**.css', () => {
     gulp.start('cssInject');
   });
 
-  gulp.watch('./docs/assets/**/*.js', () => {
+  gulp.watch('./app/assets/**/*.js', () => {
     gulp.start('scriptsRefresh');
   });
 });
 
 gulp.task('cssInject', () => {
-  return gulp.src('./docs/styles.css').pipe(broswerSync.stream());
+  return gulp.src('./temp/styles/styles.css').pipe(browserSync.stream());
 });
 
 gulp.start('scriptsRefresh', () => {

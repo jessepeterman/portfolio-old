@@ -15,7 +15,9 @@
   },
   "devDependencies": {
     "browser-sync": "^2.23.7",
-    "css-inject": "^1.0.0"
+    "css-inject": "^1.0.0",
+    "del": "^3.0.0",
+    "gulp-imagemin": "^4.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
