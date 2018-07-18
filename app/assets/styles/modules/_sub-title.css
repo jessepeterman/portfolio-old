@@ -13,12 +13,6 @@
 @media (max-width: 600px) {
   .me-arrow {
     /* top: 118px; */
-    top: 14.3rem;
-  }
-}
-@media (max-width: 500px) {
-  .me-arrow {
-    /* top: 118px; */
     top: 11rem;
   }
 }
