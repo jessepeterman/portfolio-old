@@ -35,7 +35,7 @@
 }
 
 .wrapper > div:nth-child(2n) {
-  background: rgb(95, 107, 116);
+  background: rgb(78, 78, 78);
   color: white;
 }
 

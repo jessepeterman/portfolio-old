@@ -32,7 +32,7 @@
   text-align: center;
 }
 .wrapper > div:nth-child(2n) {
-  background: rgb(95, 107, 116);
+  background: rgb(78, 78, 78);
   color: white;
 }
 .content-wrapper {
@@ -117,28 +117,28 @@
   width: 100px;
 }
 .project-1 {
-  background-image: url('../../../assets/images/app-thumbnails/squareRacerThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/squareRacerThumb.png");
 }
 /* .project-1 {
-  background-image: url('../images/app-thumbnails/squareRacerThumb.png');
+  background-image: url('assets/images/app-thumbnails/squareRacerThumb.png');
 } */
 .project-2 {
-  background-image: url('../../../assets/images/app-thumbnails/yelpCampThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/yelpCampThumb.png");
 }
 .project-3 {
-  background-image: url('../../../assets/images/app-thumbnails/PomodoroClockThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/PomodoroClockThumb.png");
 }
 .project-4 {
-  background-image: url('../../../assets/images/app-thumbnails/TravelSiteThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/TravelSiteThumb.png");
 }
 .project-5 {
-  background-image: url('../../../assets/images/app-thumbnails/CalculatorThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/CalculatorThumb.png");
 }
 .project-6 {
-  background-image: url('../../../assets/images/app-thumbnails/OldBookNewBookThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/OldBookNewBookThumb.png");
 }
 .project-7 {
-  background-image: url('../../../assets/images/app-thumbnails/expensify.png');
+  background-image: url("../../assets/images/app-thumbnails/expensify.png");
 }
 .contact-info {
   display: flex;

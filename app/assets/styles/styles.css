@@ -1,7 +1,7 @@
-@import 'modules/_wrapper';
-@import 'modules/_hero-image';
-@import 'modules/_projects';
-@import 'modules/_contact-info';
+@import "modules/_wrapper";
+@import "modules/_hero-image";
+@import "modules/_projects";
+@import "modules/_contact-info";
 
 * {
   box-sizing: border-box;
