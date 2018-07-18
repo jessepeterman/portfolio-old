@@ -1,3 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Baskerville;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.header {
+  padding: 0;
+  overflow: hidden;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+h2 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
 .wrapper {
   display: grid;
   grid-auto-rows: 240px 0.5fr 1fr 0.5fr;
@@ -140,6 +164,15 @@
 .project-7 {
   background-image: url("../../assets/images/app-thumbnails/expensify.png");
 }
+.about-me > p {
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -153,36 +186,19 @@
 .contact-info a:hover {
   opacity: 0.8;
 }
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: Baskerville;
+.photos img {
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  /* width: 400px; */
+  width: 100%;
+  height: auto;
   margin: 0;
 }
-a {
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-}
-.header {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0; */
-  /* background-image: url("assets/photos/IMG_1655.jpg"); */
-  /* background-size: cover; */
-  padding: 0;
-  overflow: hidden;
-}
-h1 {
-  font-size: 3rem;
-  font-weight: 400;
-}
-h2 {
-  font-weight: 300;
-  font-size: 1.8rem;
+@media (min-width: 800px) {
+  .photos img {
+    /* width: 600px; */
+    width: 100%;
+  }
 }
 .nav {
   text-align: center;
@@ -204,7 +220,6 @@ h2 {
   font-size: 1.6rem;
   list-style: none;
 }
-/* Hide menu button and keep showing nav-menu for larger screens */
 @media (min-width: 600px) {
   .nav-btn {
     display: none;
@@ -248,7 +263,6 @@ html.can-touch .nav-btn:hover {
   color: black;
   opacity: 1;
 }
-/* MAIN SITE GRID LAYOUT */
 .menu-divider-top {
   /* margin-bottom: 0.5rem; */
 }
@@ -257,30 +271,6 @@ hr {
   margin: 0;
   top: 2px;
 }
-.about-me > p {
-  text-align: left;
-  font-size: 1.2rem;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 900px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  /* margin: 0 1rem 0 1rem; */
-}
 .invisible {
   display: none;
-}
-.photos img {
-  background-repeat: no-repeat;
-  justify-content: space-between;
-  /* width: 400px; */
-  width: 100%;
-  height: auto;
-  margin: 0;
-}
-@media (min-width: 800px) {
-  .photos img {
-    /* width: 600px; */
-    width: 100%;
-  }
 }

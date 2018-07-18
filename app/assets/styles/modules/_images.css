@@ -1,0 +1,15 @@
+.photos img {
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  /* width: 400px; */
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (min-width: 800px) {
+  .photos img {
+    /* width: 600px; */
+    width: 100%;
+  }
+}

@@ -10,8 +10,7 @@ gulp.task("copy-styles", () => {
   return gulp
     .src("./app/assets/styles/styles.css")
     .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
-    .pipe(gulp.dest("./app/temp/styles"))
-    .pipe(gulp.dest("./docs/temp/styles"));
+    .pipe(gulp.dest("./app/temp/styles"));
 });
 
 gulp.task("styles", () => {
