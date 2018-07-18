@@ -6,6 +6,7 @@
 @import "modules/_contact-info";
 @import "modules/_images";
 @import "modules/_nav-menu";
+@import "modules/_sub-title";
 
 .invisible {
   display: none;
