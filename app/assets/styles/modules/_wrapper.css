@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-auto-rows: 240px 0.5fr 1fr 0.5fr;
+  grid-auto-rows: 240px 0.5fr 0.5fr 0.5fr;
 }
 @media (min-width: 370px) {
   .wrapper {

@@ -1,33 +1,33 @@
 .project-1 {
-  background-image: url('../../assets/images/app-thumbnails/squareRacerThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/squareRacerThumb.png");
 }
 /* .project-1 {
   background-image: url('assets/images/app-thumbnails/squareRacerThumb.png');
 } */
 
 .project-2 {
-  background-image: url('../../assets/images/app-thumbnails/yelp-camp-square-250x250.png');
+  background-image: url("../../assets/images/app-thumbnails/yelp-camp-square-250x250.png");
 }
 .project-3 {
-  background-image: url('../../assets/images/app-thumbnails/PomodoroClockThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/PomodoroClockThumb.png");
 }
 .project-4 {
-  background-image: url('../../assets/images/app-thumbnails/TravelSiteThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/TravelSiteThumb.png");
 }
 .project-5 {
-  background-image: url('../../assets/images/app-thumbnails/CalculatorThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/CalculatorThumb.png");
 }
 .project-6 {
-  background-image: url('../../assets/images/app-thumbnails/OldBookNewBookThumb.png');
+  background-image: url("../../assets/images/app-thumbnails/OldBookNewBookThumb.png");
 }
 .project-7 {
-  background-image: url('../../assets/images/app-thumbnails/expensify.png');
+  background-image: url("../../assets/images/app-thumbnails/expensify.png");
 }
 /* .project-8 {
   background-image: url('../../assets/images/app-thumbnails/gain-tracker.png');
 } */
 .project-8 {
-  background-image: url('../../assets/images/app-thumbnails/gain-tracker-square-250x250.png');
+  background-image: url("../../assets/images/app-thumbnails/gain-tracker-square-250x250.png");
 }
 
 .grid-3 {
@@ -42,7 +42,7 @@
 }
 
 .grid-3 > a:last-of-type {
-  margin: 2rem 0 2rem 0;
+  margin: 0rem 0 2rem 0;
 }
 
 @media (min-width: 900px) {
@@ -66,7 +66,7 @@
 
 .item-1 {
   display: flex;
-  background-image: url('../../assets/images/app-thumbnails/gain-tracker-square-350x350.png');
+  background-image: url("../../assets/images/app-thumbnails/gain-tracker-square-350x350.png");
   background-size: cover;
 
   align-items: flex-end;
@@ -74,13 +74,13 @@
 
 .item-2 {
   display: flex;
-  background-image: url('../../assets/images/app-thumbnails/yelp-camp-square-350x350.png');
+  background-image: url("../../assets/images/app-thumbnails/yelp-camp-square-350x350.png");
   background-size: cover;
   align-items: flex-end;
 }
 .item-3 {
   display: flex;
-  background-image: url('../../assets/images/app-thumbnails/travel-site-square-350x350.png');
+  background-image: url("../../assets/images/app-thumbnails/travel-site-square-350x350.png");
   background-size: cover;
   align-items: flex-end;
 }
